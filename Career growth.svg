@@ -1,0 +1,44 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#7aa2f7"/>
+<stop offset="100%" stop-color="#bb9af7"/>
+</linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#565f89" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<rect width="800" height="300" rx="12" fill="#1a1b27"/>
+
+<text x="30" y="30" font-family="Fira Code, monospace" font-size="13" fill="#565f89">&gt;_ career_growth.py</text>
+<text x="30" y="55" font-family="sans-serif" font-size="12" fill="#565f89">capability ↑</text>
+
+<line x1="60" y1="80" x2="740" y2="80" stroke="#292e42" stroke-width="1"/>
+<line x1="60" y1="120" x2="740" y2="120" stroke="#292e42" stroke-width="1"/>
+<line x1="60" y1="160" x2="740" y2="160" stroke="#292e42" stroke-width="1"/>
+<line x1="60" y1="200" x2="740" y2="200" stroke="#292e42" stroke-width="1"/>
+<line x1="60" y1="240" x2="740" y2="240" stroke="#3b4261" stroke-width="1"/>
+
+<path d="M110,220 C170,220 170,180 260,180 C330,180 330,140 410,140 C480,140 480,100 560,100 C630,100 630,60 690,60" fill="none" stroke="url(#grad)" stroke-width="3" stroke-linecap="round"/>
+<path d="M690,60 C715,48 730,40 758,28" fill="none" stroke="#565f89" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+<circle cx="110" cy="220" r="5" fill="#7aa2f7"/>
+<circle cx="260" cy="180" r="5" fill="#7aa2f7"/>
+<circle cx="410" cy="140" r="5" fill="#9d7cf7"/>
+<circle cx="560" cy="100" r="5" fill="#bb9af7"/>
+<circle cx="690" cy="60" r="8" fill="#9ece6a" filter="url(#glow)"/>
+
+<text x="110" y="262" font-family="sans-serif" font-size="13" fill="#a9b1d6" text-anchor="middle">Python &amp; SQL</text>
+<text x="260" y="262" font-family="sans-serif" font-size="13" fill="#a9b1d6" text-anchor="middle">First ML models</text>
+<text x="410" y="262" font-family="sans-serif" font-size="13" fill="#a9b1d6" text-anchor="middle">Deep learning</text>
+<text x="560" y="262" font-family="sans-serif" font-size="13" fill="#a9b1d6" text-anchor="middle">LLM deployment</text>
+<text x="690" y="262" font-family="sans-serif" font-size="13" font-weight="600" fill="#9ece6a" text-anchor="middle">Gov automation</text>
+<text x="690" y="280" font-family="sans-serif" font-size="11" fill="#565f89" text-anchor="middle">(current)</text>
+
+<text x="560" y="25" font-family="sans-serif" font-size="12" font-style="italic" fill="#565f89">Exploring: RAG &amp; agents</text>
+</svg>

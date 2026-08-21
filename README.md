@@ -5,7 +5,7 @@
 
 
 #  About Me:
-🖤 AI Engineer from Instituto Politécnico Nacional — always chasing the next thing to learn<br>🎧 Music is basically my portal to somewhere else — Pink Floyd and Tame Impala on repeat while I build<br>🔭 Right now: an automation system for citizen registration with the Mexican government<br>🌱 Next up: RAG pipelines, fine-tuning, agents — there's always something new<br>💪 I set goals, and I go get them<br>📫 Reach me: 
+🖤 AI Engineer from Instituto Politécnico Nacional — always chasing the next thing to learn<br>🎧 Music is basically my portal to somewhere else — Pink Floyd, Tame Impala, Daft Punk, good stuff on repeat while I build<br>🔭 Right now: an automation system for citizen registration with the Mexican government<br>🌱 Next up: RAG pipelines, fine-tuning, agents — there's always something new<br>💪 I set goals, and I go get them<br>📫 Reach me: 
 
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/fatima-avila-6aa157324) [![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:ffatyavila@gmail.com)
 

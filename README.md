@@ -16,8 +16,7 @@
 
 <img src="https://raw.githubusercontent.com/FatyAvilaa/FatyAvilaa/main/career-growth.svg" width="100%"/>
 
----
-[![](https://komarev.com/ghpvc/?username=FatyAvilaa&icon=0&color=0)](https://visitcount.itsvg.in)
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
 
 <p align="center"><i>Made with 🖤 by Fatima</i></p>

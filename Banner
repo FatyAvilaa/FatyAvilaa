@@ -1,0 +1,71 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0L0 0 0 40" fill="none" stroke="#ff2e63" stroke-width="0.5"/>
+</pattern>
+<clipPath id="clip1"><rect x="55" y="72" width="0" height="26"><animate attributeName="width" values="0;0;100;100" keyTimes="0;0.0375;0.10;1" dur="8s" calcMode="linear" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="clip2"><rect x="55" y="100" width="0" height="68"><animate attributeName="width" values="0;0;360;360" keyTimes="0;0.125;0.25;1" dur="8s" calcMode="linear" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="clip3"><rect x="55" y="163" width="0" height="32"><animate attributeName="width" values="0;0;160;160" keyTimes="0;0.2875;0.375;1" dur="8s" calcMode="linear" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="clip5"><rect x="55" y="228" width="0" height="26"><animate attributeName="width" values="0;0;290;290" keyTimes="0;0.45;0.55;1" dur="8s" calcMode="linear" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+
+<rect width="1200" height="300" rx="16" fill="#060608"/>
+<rect width="1200" height="300" rx="16" fill="url(#grid)" opacity="0.12"/>
+
+<path d="M20,20 L20,50 M20,20 L50,20" stroke="#ff2e63" stroke-width="2" fill="none" opacity="0.8"/>
+<path d="M1180,20 L1180,50 M1180,20 L1150,20" stroke="#ff2e63" stroke-width="2" fill="none" opacity="0.8"/>
+<path d="M20,280 L20,250 M20,280 L50,280" stroke="#ff2e63" stroke-width="2" fill="none" opacity="0.8"/>
+<path d="M1180,280 L1180,250 M1180,280 L1150,280" stroke="#ff2e63" stroke-width="2" fill="none" opacity="0.8"/>
+
+<g opacity="0.5" font-family="Courier New, monospace" font-size="13">
+<g fill="#ff2e63">
+<text x="960" y="0">1</text><text x="960" y="18">0</text><text x="960" y="36">1</text><text x="960" y="54">1</text><text x="960" y="72">0</text><text x="960" y="90">1</text><text x="960" y="108">0</text>
+<animateTransform attributeName="transform" type="translate" values="0,-320;0,320" dur="3.6s" repeatCount="indefinite"/>
+</g>
+<g fill="#ff6fa8">
+<text x="1010" y="0">0</text><text x="1010" y="18">1</text><text x="1010" y="36">0</text><text x="1010" y="54">0</text><text x="1010" y="72">1</text><text x="1010" y="90">0</text><text x="1010" y="108">1</text>
+<animateTransform attributeName="transform" type="translate" values="0,-320;0,320" dur="4.2s" repeatCount="indefinite" begin="-1s"/>
+</g>
+<g fill="#ff2e63">
+<text x="1060" y="0">1</text><text x="1060" y="18">1</text><text x="1060" y="36">0</text><text x="1060" y="54">1</text><text x="1060" y="72">0</text><text x="1060" y="90">0</text><text x="1060" y="108">1</text>
+<animateTransform attributeName="transform" type="translate" values="0,-320;0,320" dur="3.9s" repeatCount="indefinite" begin="-2s"/>
+</g>
+<g fill="#ff6fa8">
+<text x="1110" y="0">0</text><text x="1110" y="18">0</text><text x="1110" y="36">1</text><text x="1110" y="54">0</text><text x="1110" y="72">1</text><text x="1110" y="90">1</text><text x="1110" y="108">0</text>
+<animateTransform attributeName="transform" type="translate" values="0,-320;0,320" dur="4.6s" repeatCount="indefinite" begin="-0.5s"/>
+</g>
+</g>
+
+<rect x="0" y="-10" width="1200" height="6" fill="#ff2e63" opacity="0.15">
+<animate attributeName="y" values="-10;300" dur="4s" repeatCount="indefinite"/>
+</rect>
+
+<g clip-path="url(#clip1)">
+<text x="60" y="90" font-family="Courier New, monospace" font-size="16" fill="#ff2e63">$ whoami</text>
+</g>
+<rect x="150" y="78" width="9" height="14" fill="#ff2e63">
+<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<g clip-path="url(#clip2)">
+<text x="58" y="150" font-family="Courier New, monospace" font-weight="bold" font-size="46" fill="#ff6fa8" opacity="0.6">FATIMA_AVILA</text>
+<text x="62" y="150" font-family="Courier New, monospace" font-weight="bold" font-size="46" fill="#b3195f" opacity="0.6">FATIMA_AVILA</text>
+<text x="60" y="150" font-family="Courier New, monospace" font-weight="bold" font-size="46" fill="#ffffff">FATIMA_AVILA</text>
+</g>
+
+<g clip-path="url(#clip3)">
+<text x="60" y="185" font-family="Courier New, monospace" font-size="18" fill="#ff2e63">&gt; AI_ENGINEER</text>
+</g>
+
+<g opacity="0">
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4125;0.425;1" dur="8s" repeatCount="indefinite"/>
+<circle cx="66" cy="211" r="4" fill="#ff2e63">
+<animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+<text x="80" y="216" font-family="Courier New, monospace" font-size="14" fill="#ff6fa8">STATUS: ONLINE</text>
+</g>
+
+<g clip-path="url(#clip5)">
+<text x="60" y="245" font-family="Courier New, monospace" font-size="13" fill="#8f4a63">&gt; loading always_learning.exe ...</text>
+</g>
+</svg>
